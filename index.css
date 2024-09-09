@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5fff0;
+}
+.heading{
+    color: #6c0c92;
+    font-size:xx-large ;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.mainn{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.personal{
+    color: #5c0c92;
+    background-color: #b199ff;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+.inputname{
+    color: #5c0c92;
+    font-size: larger;
+    margin-left: 20px;
+    padding-top: 30px;
+    text-decoration:solid;
+}
+.forpic{
+    color: #5c0c92;
+}
+input[type="file"]{
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+    background-color:#be99ff ;
+    border-radius: 100px;
+    margin-top: 20px;
+
+}
+input[type="file"]::file-selector-button{
+    background-color:#5c0c92;
+    cursor: pointer;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    border-color: #5c0c92;
+    border-radius: 10px;
+}
+input[type="file"]::file-selector-button:hover{
+    background-color: #ba81c2;
+}
+input[type="submit"]{
+    
+    border-radius: 30px;
+    background-color: #5c0c92;
+    color: white;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+form {
+    margin-bottom: 40px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-color: #5c0c92;
+    border-width: 3px;
+    
+}
+
+#resume {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    border: 3px solid #5c0c92;
+    color: #5c0c92;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url(https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product-plain-studio-background_1258-54491.jpg);
+}
+.resumeinfo{
+    background-color: beige;
+    color: #5c0c92;
+    text-align: center;
+}
+
+h2, p {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#workSkill{
+    font-size: x-large;
+
+}
+
+@media (max-width: 600px) {
+    /* Adjusting padding and font size for smaller screens */
+    body {
+        margin: 10px;
+    }
+
+    form {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    img {
+        max-width: 100px;
+    }
+    input[type="submit"]{
+        padding: auto;
+    }
+    #resume{
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-left: -3px;
+    }
+
+}
